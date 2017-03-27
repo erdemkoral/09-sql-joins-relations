@@ -62,6 +62,7 @@ After calling this method, the article will still be in the browser memory altho
 
 On page refresh, the Flibbity Jibbit article will no longer appear in the browser.
 
+---
 
 #### Destroy all records (DELETE)
 
