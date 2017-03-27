@@ -1,10 +1,12 @@
 ## Lab 9 - Testing CRUD operations in the console
 
-#### Read (GET)
+### Read (GET)
 
 No need to test this; once you complete SQL `JOIN` correctly and the articles are displaying, this works as it should.
 
-#### Create a record (POST)
+---
+
+### Create a record (POST)
 
 Go into the **psql** shell and enter `SELECT COUNT(*) from articles;` to view the current number of records in the table. Then, in the browser console:
 
@@ -27,7 +29,7 @@ The new article should appear in the blog on page refresh.
 
 ---
 
-#### Update a record (PUT)
+### Update a record (PUT)
 
 In the browser console, inspect `Article.all[0]` and make note of the `author_id` and `article_id` for the Flibbity Jibbit article; you're going to need those in the next step.
 
@@ -50,7 +52,7 @@ Next, enter `updatedArticle.updateRecord()` and if there are no errors, refresh 
 
 ---
 
-#### Destroy a record (DELETE)
+### Destroy a record (DELETE)
 
 Go into the **psql** shell and enter `SELECT COUNT(*) from articles;` to view the current number of records in the table.
 
@@ -64,7 +66,7 @@ On page refresh, the Flibbity Jibbit article will no longer appear in the browse
 
 ---
 
-#### Destroy all records (DELETE)
+### Destroy all records (DELETE)
 
 You might want to save this for last.
 
